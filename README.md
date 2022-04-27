@@ -26,5 +26,5 @@
 - [ ] React    
 
 ### Error messages for future reference  
-* ERROR in Plugin "react" was conflicted between "package.json and BaseConfig
-- Solution: Open package.json and hit ctrl + save    
+❌ ERROR in Plugin "react" was conflicted between "package.json and BaseConfig  
+Solution: Open package.json and hit ctrl + save    
