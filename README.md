@@ -18,7 +18,15 @@
   ```bash
   npx create-react-app my-app
   ```   
-  * Delete all files in the src/ folder
+  * Delete all files in the src/ folder  
+  * Add index.css and index.js  
+  * Add these lines on top of the index.js file  
+  ```js
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    import './index.css';
+  ```
+
 
 ### Programming Topics practiced to get things done  
 #### 1- Tic-Tac-Toe (React)  
