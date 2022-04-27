@@ -25,7 +25,11 @@
     import React from 'react';
     import ReactDOM from 'react-dom';
     import './index.css';
-  ```
+  ```  
+  * Run the project and open http://localhost:3000
+  ```bash
+  npm start
+  ```   
 
 
 ### Programming Topics practiced to get things done  
