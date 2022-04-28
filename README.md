@@ -35,7 +35,11 @@
 ### Programming Topics practiced to get things done  
 #### 1- Tic-Tac-Toe (React)  
 * Overview  
-- [ ] React    
+  * React Project creation  
+  * Component creation  
+  * Passing data through props  
+  * Event handling  
+  * State management  
 
 ### Error messages for future reference  
 ❌ ERROR in Plugin "react" was conflicted between "package.json and BaseConfig  
