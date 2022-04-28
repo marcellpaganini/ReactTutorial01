@@ -40,13 +40,17 @@
   * Passing data through props  
   * Event handling  
   * State management  
-  * Lifting state up
+  * Lifting state up  
+  * Function components  
+  * Key assignment  
+
 
 ### Error messages for future reference  
-❌ ERROR in Plugin "react" was conflicted between "package.json and BaseConfig  
-**Solution:** Open package.json and hit ctrl + save (temporary workaround). Changed directory structure that was case sensitive (real solution).   
-❌ Warning: You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".  
-**Solution:** Change ```import ReactDOM from 'react-dom';``` to ```import ReactDOM from 'react-dom/client';```    
 ❌ This component is not running in strict mode  
-**Solution**  Change ```root.render(<Game />);``` to ```  root.render(<React.StrictMode><Game /></React.StrictMode>);```
+**Solution**  Change ```root.render(<Game />);``` to ```  root.render(<React.StrictMode><Game /></React.StrictMode>);```  
+❌ Warning: You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".  
+**Solution:** Change ```import ReactDOM from 'react-dom';``` to ```import ReactDOM from 'react-dom/client';```  
+❌ ERROR in Plugin "react" was conflicted between "package.json and BaseConfig  
+**Solution:** Open package.json and hit ctrl + save (temporary workaround). Changed directory structure that was case sensitive (real solution).     
+  
 
