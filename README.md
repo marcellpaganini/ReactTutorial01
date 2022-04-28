@@ -46,4 +46,6 @@
 **Solution:** Open package.json and hit ctrl + save (temporary workaround). Changed directory structure that was case sensitive (real solution).   
 ❌ Warning: You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".  
 **Solution:** Change ```import ReactDOM from 'react-dom';``` to ```import ReactDOM from 'react-dom/client';```    
+❌ This component is not running in strict mode
+**Solution**  Change ```root.render(<Game />);``` to ```  root.render(<React.StrictMode><Game /></React.StrictMode>);```
 
