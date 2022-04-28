@@ -39,4 +39,7 @@
 
 ### Error messages for future reference  
 ❌ ERROR in Plugin "react" was conflicted between "package.json and BaseConfig  
-Solution: Open package.json and hit ctrl + save    
+**Solution:** Open package.json and hit ctrl + save (temporary workaround). Changed directory structure that was case sensitive (real solution).   
+❌ Warning: You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".  
+**Solution:** Change ```import ReactDOM from 'react-dom';``` to ```import ReactDOM from 'react-dom/client';```    
+

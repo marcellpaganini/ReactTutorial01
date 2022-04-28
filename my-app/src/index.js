@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 
 class Square extends React.Component {
     render() {
       return (
-        <button className="square">
+        <button className="square" onClick={function() {console.log("click"); }}>
           {this.props.value}
         </button>
       );
